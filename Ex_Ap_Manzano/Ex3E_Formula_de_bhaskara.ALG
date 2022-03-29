@@ -1,15 +1,15 @@
-Algoritmo "Ex3E_Formula_de_bhaskara"
-// Disciplina  :[Lógica de Programação]
+Algoritmo "ex3E_Formula_de_bhaskara"
+// Disciplina  :[LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Obama - Jailson Santos
-// Descrição   : Formula de bhaskara
+// DescriÃ§Ã£o   : Formula de bhaskara
 // Autor(a)    : Obaminha - Lucca Macedo
 // Data atual  : 29/03/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a,b,c,x1,x2,delta:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite o valor de A: ")
    leia(a)
    escreva("Digite o valor de B: ")
@@ -18,12 +18,12 @@ Inicio
    leia(c)
 
    se (a = 0) ou (b = 0) ou (c = 0) entao
-      escreval("não é necessario conta pois temos um valor com 0")
+      escreval("nÃ£o Ã© necessario conta pois temos um valor com 0")
    senao
       delta <- b^2 - 4*a*c
-      escreval("O delta calculado é: ", delta)
+      escreval("O delta calculado Ã©: ", delta)
       se delta < 0 entao
-         escreval("Não existem raizes reais ")
+         escreval("NÃ£o existem raizes reais ")
       senao
          se delta = 0 entao
             x1<- -b/(2*a)
