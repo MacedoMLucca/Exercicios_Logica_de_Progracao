@@ -5,7 +5,7 @@
 // Autor(a)    : Obaminha - Lucca Macedo
 // Data atual  : 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+// Seção de Declarações das variáveis
    soma,contador :  inteiro
 
 Inicio
